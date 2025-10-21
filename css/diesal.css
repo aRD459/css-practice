@@ -6,6 +6,20 @@ h1{
     font-family: "Permanent Marker", cursive;
 }
 
+.diesal-title {
+    /* filter can fail on text in some browsers; provide a text-shadow fallback */
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.6));
+}
+
+header{
+    color: black;
+    background: #7A9598;
+background: linear-gradient(180deg, rgba(122, 149, 152, 1) 0%, rgba(206, 224, 224, 1) 41%, rgba(122, 149, 150, 1) 100%);
+    padding:2rem;
+    text-align: center;
+}
+
 h2,h3,h4,h5{
     font-family: "Permanent Marker", cursive;
     color: rgb(122, 149, 152);
@@ -33,20 +47,13 @@ body{
     font-size: 1.2rem;
 }
 
-header{
-    color: black;
-    background: #3feefb;
-    background: radial-gradient(circle, rgba(63, 238, 251, 1) 20%, rgba(56, 119, 255, 1) 100%);
-    padding:2rem;
-    text-align: center;
-}
 
 footer{
     margin-left: 2rem;
 }
 
 header h1{
-    color: rgb(26,26,26);
+    color: white;
 }
 
 nav ul li{
@@ -79,13 +86,14 @@ nav ul a:hover{
     padding-bottom: 2rem;
 }
 
-#discography a {
+#foods a {
   color: black;
 }
 
-#discography a:hover{
-  color: azure;
+#foods a:hover{
+  color: rgb(122, 149, 152);
 }
+
 
 main{
     width:80%;
@@ -93,6 +101,26 @@ main{
     display: flex;
     gap: 2%;
     align-items: flex-start;
+}
+
+.intro-diesal{
+    width: 80%;
+    height: auto;
+}
+
+.diesal-friends{
+    width: 80%;
+    height: auto;
+}
+
+.bathroom-diesal{
+    width: 100%;
+    height: auto;
+}
+
+.cold-diesal{
+    width: 100%;
+    height: auto;
 }
 
 article{
